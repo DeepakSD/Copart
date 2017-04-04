@@ -5,6 +5,9 @@ Team Members:
 Ashwin Kumar Muruganandam
 Deepak Shanmugam
 
+Contributions:
+FrontEnd: Deepak Shanmugam
+BackEnd: Ashwin Kumar Muruganandam
 **/
 
 
