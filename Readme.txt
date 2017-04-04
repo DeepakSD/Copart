@@ -71,6 +71,12 @@ Reused the components and reused data from cache/store.
 
 Technology: Angular JS
 
+Problem: Extract Text from Image/PDF
+We converted the the pdf to text. By using apache PDF box. We could use regular expression to read from the string. The code wont work for images.
+
+Technology: Java
+
+
 
 
 
