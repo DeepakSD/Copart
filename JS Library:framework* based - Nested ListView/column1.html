@@ -1,0 +1,21 @@
+<!-- column1.html -->
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+</style>
+<h2>Nearest Galaxies (distance: Light years from the earth)</h2>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Distance</th>
+</tr>
+<tr ng-repeat="galaxy in galaxies">
+  <td>{{galaxy.name}}</td>
+  <td>{{galaxy.distance}}</td>
+</tr>
+</table>

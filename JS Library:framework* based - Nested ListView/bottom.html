@@ -1,0 +1,7 @@
+<!-- bottom.html -->
+<h3>Bottom row!</h3>
+<ul>
+        <li ng-repeat="galaxy in galaxies | filter:name">
+         {{galaxy.name}} <img src="{{galaxy.name}}.png" alt="{{galaxy.name}}" height="50" width="50">
+        </li>
+</ul>

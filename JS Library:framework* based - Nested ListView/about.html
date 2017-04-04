@@ -1,0 +1,20 @@
+<!-- about.html -->
+<div class="jumbotron text-center">
+    <h3>About Page</h3>
+    <p><span class="text-danger">Multiple</span> views and <span class="text-danger">Named</span> views!</p>
+</div>
+
+<div class="row">
+    <!-- col1 -->
+    <div class="col-sm-6">
+        <div ui-view="column1"></div>
+    </div>
+    <!-- col2 -->
+    <div class="col-sm-6">
+        <div ui-view="column2"></div>
+    </div>
+    <!-- bottom row -->
+    <div class="col-sm-12 text-center">
+        <div ui-view="bottom-row"></div>
+    </div>
+</div>
